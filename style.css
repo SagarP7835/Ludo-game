@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #fef9f0;
+}
+
+h1 {
+  color: #333;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+#board {
+  width: 400px;
+  height: 400px;
+  background-color: #e0e0e0;
+  border: 4px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #444;
+}
+
+.controls {
+  text-align: left;
+}
+
+#rollDice {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
